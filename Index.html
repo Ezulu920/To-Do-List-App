@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/0181316d6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Todo -List</title>
 </head>
+
 <body>
-    
+    <div class="header" id="main">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Today Activities</a>
+            <a href="#">Calendar</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSkw1WKC4E9OLSY7SOrahR3nTeGNaYbBblzNQ&usqp=CAU"
+                alt="profile-pic" class="profile-pic" />
+            <h2>Hello Autumn</h2>
+            <p>Today you have 4 tasks</p>
+        </div>
+        <div class="date">
+            <h1>February 23, 2020</h1>
+            <h3>05 : 46 PM</h3>
+        </div>
+        <div class="temp">
+            <h1>79 🔆</h1>
+            <h4>Monrovia, Liberia</h4>
+        </div>
+    </div>
+
+    <div class="todo-list">
+        <ul>
+            <li>Say your Prayer 🙏🏾</li>
+            <li>Hit the Gym </li>
+            <li>Bicycle Ride </li>
+            <li>Dr. Appointment</li>
+            <li>Meet Up With Friends</li>
+        </ul>
+        <ul>
+            <li>Make GB (Very Important)</li>
+            <li>Pay Bills</li>
+            <li>Watch Soccer Game</li>
+            <li>Grocery Shopping</li>
+            <li>Soccer Practice</li>
+        </ul>
+    </div>
+    <button class="btn">+</button>
+    <script src="/JS/script.js"></script>
 </body>
+
 </html>

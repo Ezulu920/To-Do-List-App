@@ -1,0 +1,63 @@
+body{
+    background-color: #593089;
+}
+
+.profile-pic{
+    border-radius: 100px;
+    background-color: black;
+}
+
+.header{
+    background-color: #00E2FF;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00E2FF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ff00f2;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.todo-list{
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.btn{
+    background: #00E2FF;
+    border-radius: 100px;
+    margin-left: 50rem;
+    font-size: 3rem;
+}
